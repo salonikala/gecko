@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.A1{
+    text-decoration: none;
+}
+.L1{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.a1{
+    text-decoration: none;
+    color:lightgray;
+}
+.a1:hover{
+    color: black;
+}
+.B1{
+   margin-top:20px ;
+   width: 130px;
+   padding: 10px;
+   border: none;
+   background-color:#cd9854;
+   color: white;
+}
+.B1:hover{
+    background-color: rgb(216, 145, 12);
+}
+.A2{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.A2:hover{
+    color: gray;
+}
+ .S2{
+    font-size: 25px;
+} 
+.P1{
+    color: gray;
+    font-size: 20px;
+}
+.P1:hover{
+    color: gray;
+}
+#I1:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}
+.A3{
+    text-decoration: none;
+    color:#cd9854;
+    font-size:20px ;
+}
+.A3:hover{
+    color: rgb(207, 140, 17);
+}
+.P2{
+    color: gray;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.L1{
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+}
+.P3{
+    font-size: 30px;
+    color: white;
+}
+#email{
+    padding: 10px;
+    width: 400px;
+    border: none;
+} 
+
+.BUT{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.BUT:hover{
+    background-color: rgb(181, 120, 8);
+    color: white;
+}
+.Q1{
+    font-size: 25px;
+    color: #cd9854;
+}
+.s4{
+    color: rgb(220, 220, 220);
+}
+.IC{
+    background-color: #cd9854;
+    color: white;
+    width: 400px;
+    height: 200px;
+}
+/* .Z1{
+    margin-left: 5px;
+    color:gray;
+} */
+.NOW{
+    position: absolute;
+    left:8%;
+    top: 30%;
+    color: white;
+}
+.h2{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.but1{
+    border: none;
+    padding: 10px;
+     width: 120px;
+     font-size: 1rem;
+     color: white;
+     background-color: #cd9854;
+}
+.but1:hover{
+    background-color:rgb(199, 105, 38);
+}
+.WON{
+    position: absolute;
+    left:45%;
+    top: 20%;
+    color: white;
+}
+.OWN{
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    color: aliceblue;
+}
+.h9{
+    font-size: 45px;
+    color: #cd9854;
+}
+#blog1:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}
+#blog2:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}
+#blog3:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}
+.para{
+    border: right;
+    margin-top: 15px;
+}
+.Q2:hover{
+    color: rgb(174, 123, 29);
+}
+.drop {
+    display: none;
+}
+.main{
+    display: flex;
+    z-index: 10;
+}
+.nav-item:hover .drop {
+    display: block;
+    position: absolute;
+    background-color:rgb(58, 57, 57);
+    z-index: 99;
+    text-align: center;
+}
+.top {
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.top:hover{
+    color: orange;
+}
+.kid{
+    color: #cd9854;
+}
+.li1{
+    list-style:square;
+    color: white;
+}
+#bottom:hover{
+    color: black;
+}
+#bottom{
+    color: white;
+    font-size: 15px;
+}
+#bg{
+    background-color: #cd9854;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.graph{ 
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.graph:hover{
+    color: white;
+}
+.M1{
+    position: absolute;
+    top: 778px;
+    left: 13%;
+}
+h5{
+    font-size: 2rem;
+}
+.M2{
+    position: absolute;
+    top:  790px;
+    left: 65%;
+    text-align: center;
+}
+.but2{
+    border: none;
+    padding: 10px;
+     width: 120px;
+     color: white;
+     background-color: #cd9854;
+}
+#footer li{
+    list-style: none;
+}
+#pro li{
+    list-style: none;
+
+}
+.two{
+    font-size:2rem;
+    color: black;
+}
+.two:hover{
+    color: #cd9854;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+ .drp{
+    display: block;
+    background-color: rgb(2, 2, 52);
+    color: white;
+    position: relative;
+}
+.german{
+    text-align: center;
+ margin-right: 30px;
+}
+.german:hover{
+    background-color: #cd9854;
+    display:block ;
+   
+}
+.P9{
+    color: white;
+    font-size: 0.9rem;
+}
+.drp1{
+    display: inline-block;
+    background-color:rgb(2, 2, 52);
+    color:white;
+    position: relative;
+}
+.drop1{
+    display: none;
+}
+.dropdown1:hover .drop1{
+    display: block;
+    position: absolute;
+    z-index: 100;
+} 
+
+.ton1{
+    color: white;
+    position: absolute;
+    top: 50%;
+}
+.off-ul{
+    display: flex;
+    justify-content: space-around;
+}
+.off-ul ul{
+    width: 50%;
+}
+@media screen and (max-width:768px){
+   
+*{
+    margin: 0px;
+    padding: 0px;
+}  
+   #IMG{
+    width: 100%;
+   }
+    .a1{
+        text-decoration: none;
+         margin-right: 150px; 
+        display: inline;
+        padding: 40px;
+        color: white;
+    }
+    .graph{
+        font-size: 0.9rem;
+    }
+    .NOW{
+        font-size: 1rem;
+    }
+    #email{
+        width: 210px;
+    }
+    .M1{
+        top: 35%;
+    }
+    .M2{
+        top: 62%;
+        left: 30%;
+    }
+    #I1{
+        margin-right: 20px;
+    }
+    
+}

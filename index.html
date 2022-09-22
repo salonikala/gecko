@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+</head>
+
+<body style="width:100%;">
+    <!-- navbar -->
+    <div class="container-fluid mt-2">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-12 d-lg-inline-block d-none pt-3">
+                <div class="main">
+                    <ul class="d-flex">
+                        <li class="dropdown1"> English <i class="fas fa-angle-down"></i>
+                            <div class="drop1">
+                                <div class="down">
+                                    <ul class="drp1">
+                                        <li class="german">English</li>
+                                        <li class="german">French</li>
+                                        <li class="german">German</li>
+                                    </ul>
+                                </div>
+                        </li>
+                        <li class="dropdown1" style="border-left:2px solid rgb(105, 103, 103);"> USD <i
+                                class="fas fa-angle-down"></i>
+                            <div class="drop1">
+                                <div class="down">
+                                    <ul class="drp1">
+                                        <li class="german">USD</li>
+                                        <li class="german">EURO</li>
+                                        <li class="german">POUND</li>
+                                    </ul>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 m-auto text-center">
+                <img src="./assests/images/logo/1logo.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                <div class="d-flex mt-2">
+                    <ul class="d-flex">
+                        <li class="two"><i class="fas fa-search px-2"></i> </li>
+                        <li class="two"><i class="far fa-user px-2"></i> </li>
+                        <li class="two"><i class="fas fa-shopping-bag px-2  d-lg-inline-block d-none"></i></li>
+                        <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#touch"><i
+                                class="fas fa-bars d-lg-none d-md- d-block" style="font-size:2rem ;"></i></button>
+                    </ul>
+                    <div class="offcanvas offcanvas-start w-75" id="touch" style="background-color:#cd9854 ">
+                        <div class="offcanvas-header">
+                            <h1 class="offcanvas-title"></h1>
+                            <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                           <div class="off-ul">
+                            <ul>
+                                <li class="li6"> <a href="" class="a1">HOME</a> </li>
+                                <li class="li6"> <a href="" class="a1">SHOP</a> </li>
+                                <li class="li6"> <a href="" class="a1">JUNIOR</a> </li>
+                                <li class="li6"> <a href="" class="a1">KIDS</a> </li>
+                                <li class="li6"> <a href="" class="a1">BABY</a> </li>
+                                <li class="li6"> <a href="" class="a1">PAGES</a> </li>
+                            </ul>
+                            <ul>
+                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
+                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
+                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
+                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
+                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
+                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
+                            </ul>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-lg-inline-block d-none" id="bg">
+        <div class="row ">
+            <div class="col-2"></div>
+            <div class="col-7">
+                <ul class="d-flex nav nav-fill ">
+                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">HOME</a>
+                        <div class="drop">
+                            <div class="down ms-5">
+                                <ul class="dropdown" style="float: left;">
+                                    <li> <a href="" class="top p- kid">WOMEN CLOTHING</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p- "> Dreses</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p- ">Sports jeans </a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p- ">Shirt</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p- ">Top</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p- ">Sleepwear</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p- ">Jeans</a> </li>
+                                </ul>
+                                <ul class="dropdown" style="float:right ;">
+                                    <li> <a href="" class="top p-1 kid">WOMEN FASHION</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Sports shoes</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Phone cases</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">SHOP</a>
+                        <div class="drop">
+                            <div class="down ms-5">
+                                <ul class="dropdown pb-4" style="float: left;">
+                                    <li> <a href="" class="top p-1  kid">MEN FASHION</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Dreses</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Sports jeans </a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Shirt</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Top</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Sleepwear</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Jeans</a> </li>
+                                </ul>
+                                <ul class="dropdown" style="float:right ;">
+                                    <li> <a href="" class="top p-1 kid">JUNIOR KID</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Sports shoes</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Phone cases</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
+                                </ul>
+                                <ul class="dropdown" style="float:right ;">
+                                    <li> <a href="" class="top p-1 kid">MEN CLOTHING</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Chinos & trouser</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Underwear</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">JUNIOR</a></li>
+                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">KIDS</a>
+                        <div class="drop">
+                            <div class="down ms-5">
+                                <ul class="dropdown p-0">
+                                    <li> <a href="" class="top p-1 kid">KIDS FASHION</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Sports shoes</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Phone cases</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">BABY</a> </li>
+                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">PAGES</a>
+                        <div class="drop">
+                            <div class="down ms-2">
+                                <ul class="dropdown" style="float: left;">
+                                    <li class="li1 m-auto"> <a href="" class="top p-2">About us</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Account</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Checkout</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Contact</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">404 error</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Blog</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Single blog</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Wishlist</a> </li>
+                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Compare</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="carousel slide" id="oneness" data-bs-ride="carousel" style="background-color:#cd9854;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-sm-12 col-md-12">
+                            <img src="./assests/images/banner/banner1.jpg" class=" w-100 img-fluid" alt="">
+                        </div>
+                        <div class="NOW">
+                            <h5 style="font-size: 1rem;">TOP GRAIN LEATHER</h5>
+                            <h2 class=" d-lg-inline-block d-none">LATEST OFFICE HAND BAG</h2>
+                            <p class="P9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, assumenda!
+                            </p>
+                            <button class="but1 d-lg-inline-block d-none">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-sm-12 col-md-12">
+                            <img src="./assests/images/banner/banner2.jpg" class=" w-100 img-fluid" alt="">
+                        </div>
+                        <div class="WON  d-lg-inline-block d-none">
+                            <h3>THE DESIRED COLLECTION</h3>
+                            <h1 class="h9">STYLISH & UTILITARIAN PURSE</h1>
+                            <p calss="ton1">Lorem ipsum dolor sit amet.</p>
+                            <button class="but1">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-sm-12 col-md-12">
+                            <img src="./assests/images/banner/banner3.jpg" class="w-100 img-fluid" alt="">
+                        </div>
+                        <div class="OWN  d-lg-inline-block d-none">
+                            <h5>LATEST COLLECTION</h5>
+                            <h2 class="h2">GUCKO FOR LUXARY PURSE</h2>
+                            <p calss="ton1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum.</p>
+                            <button class="but1">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" data-bs-target="#oneness" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon d-none d-lg-inline-block"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#oneness" data-bs-slide="next">
+            <span class="carousel-control-next-icon d-none d-lg-inline-block"></span>
+        </button>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-6 col-md-12 mt-2">
+                <img src="./assests/images/banner/sub-banner1.jpg" class="img-fluid" id="IMG" alt="">
+                <div class="M1 d-lg-inline-block d-none">
+                    <h6> <a href="" class="graph">LEATHER BAG</a> </h6>
+                    <p> <a href="" class="graph">Official Bag For Women</a> </p>
+                    <button class="but2">SHOP NOW</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-md-12 mt-2">
+
+                <img src="./assests/images/banner/sub-banner2.jpg" class="img-fluid" id="IMG" alt="">
+                <div class="M2 d-lg-inline-block d-none">
+                    <p><a href="" class="graph">Unlimited Collection Bags</a></p>
+                    <button class="but2">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <h3 class="mt-3 text-warning">OUR PRODUCT</h3>
+        <img src="./assests/images/content/line.png" alt="">
+        <div class="row">
+            <div class="col-12 ">
+                <ul class="d-flex justify-content-center" id="pro">
+                    <li class="ps-3 pe-3"> <a href="" class="A1"></a>best seller</li>
+                    <li>-</li>
+                    <li class="ps-3 pe-3"> <a href="" class="A1"></a>new product </li>
+                    <li>-</li>
+                    <li class="ps-3 pe-3"> <a href="" class="A1"></a>Special product </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center ">
+        <div class="row">
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12 auto text-center">
+                <img src="./assests/images/content/bag.1.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.3rem ;">$120.00</span>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12 text-center">
+                <img src="./assests/images/content/bag.2.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.3rem ;">$120.00</span>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12  text-center">
+                <img src="./assests/images/content/bag.3.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.3rem ;">$120.00</span>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12  text-center">
+                <img src="./assests/images/content/bag.4.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.3rem ;">$120.00</span>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12  text-center ">
+                <img src="./assests/images/content/bag.5.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.3rem ;">$120.00</span>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12  text-center">
+                <img src="./assests/images/content/bag.6.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.3rem ;">$120.00</span>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12  text-center">
+                <img src="./assests/images/content/bag.1.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.2rem;">$120.00</span>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-12 col-md-12  text-center">
+                <img src="./assests/images/content/bag.8.jpg" class="w-100 img-fluid" alt="">
+                <a href="" class="a1">Fastford Platinum Black</a><br>
+                <span class="text-warning" style="font-size:1.2rem;">$120.00</span>
+            </div>
+        </div>
+        <button class="B1">LOAD MORE</button>
+    </div>
+    <div class="container-fluid bg-light mt-5">
+        <h2 class="text-center text-warning m-auto">PURSE BY SIZE</h2>
+        <p class="text-center">
+            <img src="./assests/images/content/line.png" alt="">
+        </p>
+        <div class="row">
+            <div class="col-6 col-sm-12 col-md-12 col-lg-6 d-lg-inline-block d-none">
+                <img src="./assests/images/content/bag.png" alt="">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <p>Many desktop publishing packages and web page editors now Internet tend to repeat predefined
+                    chunks
+                    as necessary.</p>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assests/images/content/small.bag.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="mt-5">
+                                    <span style="color:lightgray;">SMALL:</span>
+                                    <p>for party time</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assests/images/content/medium.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="mt-5">
+                                    <span style="color:lightgray;">MEDIUM:</span>
+                                    <p>for shopping time</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assests/images/content/large.bag.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="mt-5">
+                                    <span style="color:lightgray;">LARGE:</span>
+                                    <p>for wedding time</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assests/images/content/ex-large.bag.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="mt-5">
+                                    <span style="color:lightgray;">EXTRA LARGE:</span>
+                                    <p>for travlling time</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- <div class="row mt-4">
+                    <div class=" col-12 col-sm-12 col-md- col-lg-3">
+                        <img src="./assests/images/content/small.bag.png" alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
+                        <span style="color:lightgray;">SMALL:</span>
+                        <p>for party time</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md- col-lg-3">
+                        <img src="./assests/images/content/medium.png" alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
+                        <span style="color:lightgray;">MEDIUM:</span>
+                        <p>for shopping time</p>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-12 col-sm-12 col-md- col-lg-3">
+                        <img src="./assests/images/content/large.bag.png" alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
+                        <span style="color:lightgray;">LARGE:</span>
+                        <p>for wedding time</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md- col-lg-3 text-center">
+                        <img src="./assests/images/content/ex-large.bag.png" alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
+                        <span style="color:lightgray;">EXTRA LARGE:</span>
+                        <p>for travlling time</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <h2 class="mt-5 text-warning text-center">TESTIMONIALS</h2>
+    <p class="text-center"><img src="./assests/images/content/line.png" alt=""></p>
+    <div class="carousel slide" id="one" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container p-5">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="./assests/images/content/testimonial_img1.jpg" alt="">
+                            <p class="P1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quam
+                                doloribus
+                                in eaque
+                                animi ex porro optio soluta quo blanditiis cupiditate, commodi eius. Unde vel
+                                accusantium harum soluta pariatur! Cum voluptate cupiditate hic fugiat eum.</p>
+                            <span class="text-warning S2">Bob Ross</span><br>
+                            <a href="" class="A2">Head Of Ocado Technology,Canada</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container p-5">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="./assests/images/content/testimonial_img2.jpg" alt="">
+                            <p class="P1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa nostrum
+                                itaque
+                                libero id?
+                                Perferendis molestiae repudiandae nesciunt cumque, voluptates tempore ratione! Rem
+                                dolor
+                                quaerat exercitationem repellendus maiores consequuntur perspiciatis! Itaque quod
+                                nulla
+                                ipsum labore consequuntur.</p>
+
+                            <span class="text-warning S2">Bob Ross</span><br>
+                            <a href="" class="A2">Head Of Ocado Technology,Canada</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container p-5">
+                    <div class="row">
+                        <div class="col-12 text-center text-bold">
+                            <img src="./assests/images/content/testimonial_img3.jpg" alt="">
+                            <p class="P1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, culpa
+                                iusto cumque
+                                dolores consequatur temporibus, aliquid voluptate molestias placeat dicta ratione
+                                eius
+                                illum? At nobis molestiae optio delectus porro assumenda ex laborum harum dolorem
+                                veniam.</p>
+
+                            <span class="text-warning S2">Bob Ross</span><br>
+                            <a href="" class="A2">Head Of Ocado Technology,Canada</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#one" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span><i class="fas fa-arrow-circle-left"
+                style="color:black; font-size:30px;" id="I1"></i>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#one" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <i class="fas fa-arrow-circle-right" style="color:black; font-size:30px;" id="I1"></i>
+        </button>
+    </div>
+    <div class="container p-5 ">
+        <h2 class="mt-5 text-warning text-center">LATEST BLOG</h2>
+        <p class="text-center"><img src="./assests/images/content/line.png" alt=""></p>
+        <div class="row mt-5">
+            <div class="col-lg-4 col-sm-12 col-md-12 col-12 " id="blog1">
+                <img src="./assests/images/content/blog_img1.jpg" class="img-fluid w-100" alt="">
+                <div class="jan  d-lg-inline-block d-none">
+                    <span>01 jan 2020</span> <span class="float-end">King Rob</span><br>
+                    <a href="" class="A3">THIS IS PAPER SPRING SUMMER 2019 LI...</a>
+                    <p class="P2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aut tenetur porro
+                        quibusdam
+                        natus quod libero a impedit architecto?</p>
+                    <button class="L1">READ MORE...</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-12 col-12" id="blog2">
+                <img src="./assests/images/content/blog_img2.jpg" class="img-fluid w-100" alt="">
+                <div class="jan  d-lg-inline-block d-none">
+                    <span>01 jan 2020</span> <span class="float-end">King Rob</span><br>
+                    <a href="" class="A3">THIS IS PAPER SPRING</a>
+                    <p class="P2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aut tenetur porro
+                        quibusdam
+                        natus quod libero a impedit perferendis architecto?</p>
+                    <button class="L1">READ MORE...</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-12 col-12" id="blog3">
+                <img src="./assests/images/content/blog_img3.jpg" class="img-fluid w-100" alt="">
+                <div class="jan  d-lg-inline-block d-none">
+                    <span>01 jan 2020</span> <span class="float-end">King Rob</span><br>
+                    <a href="" class="A3">SUMMER 2019 LINEN</a>
+                    <p class="P2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aut tenetur porro
+                        quibusdam
+                        natus quod libero a impedit perferendis architecto?</p>
+                    <button class="L1">READ MORE...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel slide" id="ness" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                            <img src="./assests/images/content/brand1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand4.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class=" col-12 col-lg-3 col-sm-12 col-md-12">
+                            <img src="./assests/images/content/brand2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand5.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class=" col-12 col-lg-3 col-sm-12 col-md-12">
+                            <img src="./assests/images/content/brand3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand5.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand6.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand5.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand6.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                            <img src="./assests/images/content/brand7.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                            <img src="./assests/images/content/brand4.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                            <img src="./assests/images/content/brand5.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                            <img src="./assests/images/content/brand3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand5.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-3 d-lg-inline-block d-none">
+                            <img src="./assests/images/content/brand6.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#ness" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"><i class="fas fa-arrow-circle-left"
+                    style="color:black; font-size:30px;" id="I1"></i></span>
+
+        </button>
+        <button class="carousel-control-next" data-bs-target="#ness" data-bs-slide="next">
+            <span class="carousel-control-next-icon"><i class="fas fa-arrow-circle-right"
+                    style="color:black; font-size:30px;" id="I1"></i></span>
+
+        </button>
+    </div>
+    <div class="container-fluid  " style="background-color:#cd9854 ;">
+        <div class="row p-4 text-center">
+            <div class="col-12 col-sm-12 col-lg-6 col-md-12">
+                <p class="P3">Subscribe To Recieve 10% OFF*</p>
+            </div>
+            <div class=" col-12 col-sm-12 col-lg-6 col-md-12">
+                <form action="">
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="Email Here...."><button class="BUT">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white ">
+        <div class="row text-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 mt-4" style="border-right:1px solid lightgray;">
+                <p class="para"> <img src="./assests/images/logo/2.logo.png" alt=""></p>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-md-12 mt-4">
+                <p class="one">There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour, or randomised simply dummy text of the
+                    printing and typesetting industry Lorem Ipsum available, but the majority .</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white p-5" id="footer">
+        <div class="row" style="border-top:1px solid lightgray;">
+            <div class=" col-12 col-sm-12 col-lg-3 col-md-12">
+                <ul>
+                    <li class="Q1">CONTACT US</li>
+                    <li>150-A Appolo aprtment,</li>
+                    <li>opp. Hopewell Junction, Allen st Road,</li>
+                    <li>new york-405001.</li>
+                    <li>0123 456 789 / 983 4567 890</li>
+                    <li class="Q2">infoservices@Aaryaweb.com</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 col-md-12">
+                <ul>
+                    <li class="Q1">HELP</li>
+                    <li class="Q2">Delivery information</li>
+                    <li class="Q2">Privacy Policy</li>
+                    <li class="Q2">Terms & Conditions</li>
+                    <li class="Q2">Contact</li>
+                    <li class="Q2">Sitemap</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 col-md-12">
+                <ul>
+                    <li class="Q1">INFORMATION</li>
+                    <li class="Q2">Delivery information</li>
+                    <li class="Q2">Privacy Policy</li>
+                    <li class="Q2">Terms & Conditions</li>
+                    <li class="Q2">Contact</li>
+                    <li class="Q2">Sitemap</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 col-md-12">
+                <ul>
+                    <li class="Q1">FOLLOW ON</li>
+                    <li> <a href=""></a> <i class="fab fa-facebook-square"
+                            style="color:rgb(146, 108, 36);font-size:40px; margin:5px;"></i>
+                        <a href=""></a><i class="fab fa-twitter-square"
+                            style="color:rgb(146, 108, 36);font-size:40px; margin: 5px;"></i>
+                        <a href=""></a><i class="fab fa-linkedin"
+                            style="color:rgb(146, 108, 36);font-size:40px; margin: 5px;"></i>
+                        <a href=""></a> <i class="fas fa-wifi"
+                            style="color:rgb(146, 108, 36);font-size:40px; margin:5px;"></i>
+                    </li>
+                    <li>There are many variations of passages of Lorem.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container p-5">
+        <div class="row ">
+            <div class=" col-12 col-sm-12 col-lg-6 col-md-12 mt-2">
+                <p>© 2020 All Rights Reserved. Design By AaryaWeb</p>
+            </div>
+            <div class=" col-12 col-sm-12 col-lg-6 col-md-12">
+                <img src="./assests/images/content/pay1.png" class="img-fluid m-3" alt=""><span
+                    style="border-right:1px solid lightgrey;"></span>
+                <img src="./assests/images/content/pay2.png" class="img-fluid m-3" alt=""><span
+                    style="border-right:1px solid lightgrey;"></span>
+                <img src="./assests/images/content/pay3.png" class="img-fluid m-3" alt=""><span
+                    style="border-right:1px solid lightgrey;"></span>
+                <img src="./assests/images/content/pay4.png" class="img-fluid m-3" alt=""><span
+                    style="border-right:1px solid lightgrey;"></span>
+                <img src="./assests/images/content/pay5.png" class="img-fluid m-3" alt=""><span><a href=""
+                        style="padding:15px; width:100px; background-color:orange; color:white;"><i
+                            class="fas fa-angle-up"></i></a></span>
+            </div>
+        </div>
+    </div>
+    <script src="./assests/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
