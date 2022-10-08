@@ -18,42 +18,37 @@
     <!-- navbar -->
     <div class="container-fluid mt-2">
         <div class="row">
-            <div class="col-lg-4 col-sm-12 col-md-12 d-lg-inline-block d-none pt-3">
-                <div class="main">
-                    <ul class="d-flex">
-                        <li class="dropdown1"> English <i class="fas fa-angle-down"></i>
-                            <div class="drop1">
-                                <div class="down">
-                                    <ul class="drp1">
-                                        <li class="german">English</li>
-                                        <li class="german">French</li>
-                                        <li class="german">German</li>
-                                    </ul>
-                                </div>
-                        </li>
-                        <li class="dropdown1" style="border-left:2px solid rgb(105, 103, 103);"> USD <i
-                                class="fas fa-angle-down"></i>
-                            <div class="drop1">
-                                <div class="down">
-                                    <ul class="drp1">
-                                        <li class="german">USD</li>
-                                        <li class="german">EURO</li>
-                                        <li class="german">POUND</li>
-                                    </ul>
-                                </div>
-                        </li>
-                    </ul>
+            <div class="col-4 mt-3">
+                <div class="dropdown">
+                    <a href="" class="eng">English</a>
+                    <div class="dropdown-content">
+                        <a href="">English</a>
+                        <a href="">Frence</a>
+                        <a href="">German</a>
+                    </div>
                 </div>
+                <span style="border-right: 2px solid gray;"> <i class="fas fa-angle-down" style="color: gray;"></i></span>
+                <div class="dropdown">
+                    <a href="" class="eng">USD</a>
+                    <div class="dropdown-content">
+                        <a href="">USD</a>
+                        <a href="">EURO</a>
+                        <a href="">POUND</a>
+                    </div>
+                </div>
+                <span> <i class="fas fa-angle-down" style="color: gray;"></i></span>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4 m-auto text-center">
                 <img src="./assests/images/logo/1logo.png" class="img-fluid" alt="">
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-4">
-                <div class="d-flex mt-2">
+                <div class="d-flex mt-2" style="float:right ;">
                     <ul class="d-flex">
                         <li class="two"><i class="fas fa-search px-2"></i> </li>
                         <li class="two"><i class="far fa-user px-2"></i> </li>
-                        <li class="two"><i class="fas fa-shopping-bag px-2  d-lg-inline-block d-none"></i></li>
+                        <li class="two"><i class="fas fa-shopping-bag px-2  d-lg-inline-block d-none">
+                            <small class="card-noti">2</small>
+                        </i></li>
                         <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#touch"><i
                                 class="fas fa-bars d-lg-none d-md- d-block" style="font-size:2rem ;"></i></button>
                     </ul>
@@ -63,132 +58,37 @@
                             <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
                         </div>
                         <div class="offcanvas-body">
-                           <div class="off-ul">
-                            <ul>
-                                <li class="li6"> <a href="" class="a1">HOME</a> </li>
-                                <li class="li6"> <a href="" class="a1">SHOP</a> </li>
-                                <li class="li6"> <a href="" class="a1">JUNIOR</a> </li>
-                                <li class="li6"> <a href="" class="a1">KIDS</a> </li>
-                                <li class="li6"> <a href="" class="a1">BABY</a> </li>
-                                <li class="li6"> <a href="" class="a1">PAGES</a> </li>
-                            </ul>
-                            <ul>
-                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
-                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
-                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
-                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
-                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
-                                <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a> </li>
-                            </ul>
-                           </div>
+                            <div class="off-ul">
+                                <ul>
+                                    <li class="li6"> <a href="" class="a1">HOME</a> </li>
+                                    <li class="li6"> <a href="" class="a1">SHOP</a> </li>
+                                    <li class="li6"> <a href="" class="a1">JUNIOR</a> </li>
+                                    <li class="li6"> <a href="" class="a1">KIDS</a> </li>
+                                    <li class="li6"> <a href="" class="a1">BABY</a> </li>
+                                    <li class="li6"> <a href="" class="a1">PAGES</a> </li>
+                                </ul>
+                                <ul>
+                                    <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a>
+                                    </li>
+                                    <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a>
+                                    </li>
+                                    <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a>
+                                    </li>
+                                    <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a>
+                                    </li>
+                                    <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a>
+                                    </li>
+                                    <li class="li6"> <a href=""><i class="far fa-plus" style="color:white;"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid d-lg-inline-block d-none" id="bg">
-        <div class="row ">
-            <div class="col-2"></div>
-            <div class="col-7">
-                <ul class="d-flex nav nav-fill ">
-                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">HOME</a>
-                        <div class="drop">
-                            <div class="down ms-5">
-                                <ul class="dropdown" style="float: left;">
-                                    <li> <a href="" class="top p- kid">WOMEN CLOTHING</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p- "> Dreses</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p- ">Sports jeans </a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p- ">Shirt</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p- ">Top</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p- ">Sleepwear</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p- ">Jeans</a> </li>
-                                </ul>
-                                <ul class="dropdown" style="float:right ;">
-                                    <li> <a href="" class="top p-1 kid">WOMEN FASHION</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Sports shoes</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Phone cases</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </li>
-                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">SHOP</a>
-                        <div class="drop">
-                            <div class="down ms-5">
-                                <ul class="dropdown pb-4" style="float: left;">
-                                    <li> <a href="" class="top p-1  kid">MEN FASHION</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Dreses</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Sports jeans </a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Shirt</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Top</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Sleepwear</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Jeans</a> </li>
-                                </ul>
-                                <ul class="dropdown" style="float:right ;">
-                                    <li> <a href="" class="top p-1 kid">JUNIOR KID</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Sports shoes</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Phone cases</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
-                                </ul>
-                                <ul class="dropdown" style="float:right ;">
-                                    <li> <a href="" class="top p-1 kid">MEN CLOTHING</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Chinos & trouser</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Underwear</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">JUNIOR</a></li>
-                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">KIDS</a>
-                        <div class="drop">
-                            <div class="down ms-5">
-                                <ul class="dropdown p-0">
-                                    <li> <a href="" class="top p-1 kid">KIDS FASHION</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Blazer & coat</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 "> Sports shoes</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Phone cases</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Trousers</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Purse</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-5 ">Wallet</a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">BABY</a> </li>
-                    <li class="nav-item m-3"> <a href="" class="nav-link" id="bottom">PAGES</a>
-                        <div class="drop">
-                            <div class="down ms-2">
-                                <ul class="dropdown" style="float: left;">
-                                    <li class="li1 m-auto"> <a href="" class="top p-2">About us</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Account</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Checkout</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Contact</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">404 error</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Blog</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Single blog</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Wishlist</a> </li>
-                                    <li class="li1 m-auto"> <a href="" class="top p-2 ">Compare</a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
+    
     <div class="carousel slide" id="oneness" data-bs-ride="carousel" style="background-color:#cd9854;">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -342,84 +242,52 @@
                 <p>Many desktop publishing packages and web page editors now Internet tend to repeat predefined
                     chunks
                     as necessary.</p>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div>
-                                    <img src="./assests/images/content/small.bag.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="mt-5">
-                                    <span style="color:lightgray;">SMALL:</span>
-                                    <p>for party time</p>
-                                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./assests/images/content/small.bag.png" class="img-fluid" alt="">
                             </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div>
-                                    <img src="./assests/images/content/medium.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="mt-5">
-                                    <span style="color:lightgray;">MEDIUM:</span>
-                                    <p>for shopping time</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div>
-                                    <img src="./assests/images/content/large.bag.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="mt-5">
-                                    <span style="color:lightgray;">LARGE:</span>
-                                    <p>for wedding time</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div>
-                                    <img src="./assests/images/content/ex-large.bag.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="mt-5">
-                                    <span style="color:lightgray;">EXTRA LARGE:</span>
-                                    <p>for travlling time</p>
-                                </div>
+                            <div class="mt-5">
+                                <span style="color:lightgray;">SMALL:</span>
+                                <p>for party time</p>
                             </div>
                         </div>
                     </div>
-                <!-- <div class="row mt-4">
-                    <div class=" col-12 col-sm-12 col-md- col-lg-3">
-                        <img src="./assests/images/content/small.bag.png" alt="">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./assests/images/content/medium.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="mt-5">
+                                <span style="color:lightgray;">MEDIUM:</span>
+                                <p>for shopping time</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
-                        <span style="color:lightgray;">SMALL:</span>
-                        <p>for party time</p>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./assests/images/content/large.bag.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="mt-5">
+                                <span style="color:lightgray;">LARGE:</span>
+                                <p>for wedding time</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md- col-lg-3">
-                        <img src="./assests/images/content/medium.png" alt="">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="d-flex">
+                            <div>
+                                <img src="./assests/images/content/ex-large.bag.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="mt-5">
+                                <span style="color:lightgray;">EXTRA LARGE:</span>
+                                <p>for travlling time</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
-                        <span style="color:lightgray;">MEDIUM:</span>
-                        <p>for shopping time</p>
-                    </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-12 col-sm-12 col-md- col-lg-3">
-                        <img src="./assests/images/content/large.bag.png" alt="">
-                    </div>
-                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
-                        <span style="color:lightgray;">LARGE:</span>
-                        <p>for wedding time</p>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md- col-lg-3 text-center">
-                        <img src="./assests/images/content/ex-large.bag.png" alt="">
-                    </div>
-                    <div class="col-12 col-sm-12 col-md- col-lg-3 mt-5">
-                        <span style="color:lightgray;">EXTRA LARGE:</span>
-                        <p>for travlling time</p>
-                    </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
@@ -495,7 +363,7 @@
         <h2 class="mt-5 text-warning text-center">LATEST BLOG</h2>
         <p class="text-center"><img src="./assests/images/content/line.png" alt=""></p>
         <div class="row mt-5">
-            <div class="col-lg-4 col-sm-12 col-md-12 col-12 " id="blog1">
+            <div class="col-lg-4 col-sm-12 col-md-12 col-12 pb-4 " id="blog1">
                 <img src="./assests/images/content/blog_img1.jpg" class="img-fluid w-100" alt="">
                 <div class="jan  d-lg-inline-block d-none">
                     <span>01 jan 2020</span> <span class="float-end">King Rob</span><br>
@@ -506,7 +374,7 @@
                     <button class="L1">READ MORE...</button>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-12 col-md-12 col-12" id="blog2">
+            <div class="col-lg-4 col-sm-12 col-md-12 col-12 pb-4" id="blog2">
                 <img src="./assests/images/content/blog_img2.jpg" class="img-fluid w-100" alt="">
                 <div class="jan  d-lg-inline-block d-none">
                     <span>01 jan 2020</span> <span class="float-end">King Rob</span><br>
